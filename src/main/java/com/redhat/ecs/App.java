@@ -48,6 +48,8 @@ public class App
             HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
             HttpsURLConnection.setDefaultHostnameVerifier(hv);
 
+            // Call the XML-RPC service
+
             final XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
             config.setServerURL(new URL("https://vault-test.app.eng.nay.redhat.com/xmlrpcforcontent"));
             config.setBasicUserName(args[0]);
