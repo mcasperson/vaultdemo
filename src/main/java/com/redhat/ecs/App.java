@@ -11,8 +11,8 @@ public class App
 {
     public static void main( final String[] args )
     {
-        if (args.length < 2) {
-            System.out.println("Need to supply username and password.");
+        if (args.length < 3) {
+            System.out.println("Need to supply XML-RPC endpoint, username and password.");
             return;
         }
         try {
@@ -51,9 +51,9 @@ public class App
             // Call the XML-RPC service
 
             final XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
-            config.setServerURL(new URL("https://vault-test.app.eng.nay.redhat.com/xmlrpcforcontent"));
-            config.setBasicUserName(args[0]);
-            config.setBasicPassword(args[1]);
+            config.setServerURL(new URL(args[0]));
+            config.setBasicUserName(args[1]);
+            config.setBasicPassword(args[2]);
 
             final XmlRpcClient client = new XmlRpcClient();
             client.setConfig(config);
