@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03eacce9-8584-41d2-b613-2dd59ad0ca09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/redhat/ecs/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/redhat/ecs/App.java" />
-    </list>
+    <list default="true" id="03eacce9-8584-41d2-b613-2dd59ad0ca09" name="Default" comment="" />
     <ignored path="vaultdemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/App.java" changelist="03eacce9-8584-41d2-b613-2dd59ad0ca09" time="1372464862250" ignored="false" />
-    <file path="/Dummy.txt" changelist="03eacce9-8584-41d2-b613-2dd59ad0ca09" time="1372464799802" ignored="false" />
-    <file path="/fragment.java" changelist="03eacce9-8584-41d2-b613-2dd59ad0ca09" time="1372464918358" ignored="false" />
+    <file path="/Dummy.txt" changelist="03eacce9-8584-41d2-b613-2dd59ad0ca09" time="1372465092088" ignored="false" />
+    <file path="/fragment.java" changelist="03eacce9-8584-41d2-b613-2dd59ad0ca09" time="1372465098529" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,7 +438,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-4" width="1936" height="1092" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
