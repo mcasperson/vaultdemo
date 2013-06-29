@@ -1,20 +1,12 @@
 package com.redhat.ecs;
 
-import org.apache.xmlrpc.XmlRpcException;
 import org.apache.xmlrpc.client.XmlRpcClient;
 import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
 
 import javax.net.ssl.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.cert.X509Certificate;
-import java.util.List;
-import java.util.Map;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( final String[] args )
